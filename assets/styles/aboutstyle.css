@@ -151,7 +151,7 @@ li{
 
 .top-tri{
   position: relative;
-    top: -34px;
+    top: -26px;
   left: 166px;
   width: 0;
   height: 0;
@@ -276,7 +276,7 @@ li{
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
-  border-top: none;
+  border-style: none;
 
 
 }

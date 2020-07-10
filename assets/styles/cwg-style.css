@@ -23,8 +23,8 @@
     display: inline-flex;
     align-items: center;
     position: relative;
-    left: 14%;
-    top: -22px;
+
+    top: -12px;
 
     z-index: 1;
 
@@ -32,7 +32,7 @@
 }
 
 .role-txt{
-  max-width: 600px;
+  max-width: 530px;
 
   font-family: "Roboto";
   color:#FFFFFF;

@@ -11,8 +11,7 @@
 .project-head-content{
     display: inline-flex;
     align-items: center;
-    position: relative;
-    left: 14%;
+
 
 
     z-index: 1;
@@ -58,7 +57,7 @@
     display: inline-flex;
     align-items: center;
     position: relative;
-    left: 14%;
+top: -14px;
 
     z-index: 1;
 

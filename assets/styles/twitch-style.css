@@ -1,6 +1,6 @@
 
 .graphics-header {
-  height: 240px;
+  height: 220px;
   width: 100%;
   background: #0E1C41;
   display: inline-flex;
@@ -25,8 +25,8 @@
     display: inline-flex;
     align-items: center;
     position: relative;
-    left: 14.8%;
-    top: -22px;
+    top: -8px;
+    left: -8px;
 
     z-index: 1;
 

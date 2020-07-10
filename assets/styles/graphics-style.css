@@ -1,6 +1,6 @@
 
 .graphics-header {
-  height: 240px;
+  height: 220px;
   width: 100%;
   background: #0E1C41;
   display: inline-flex;
@@ -13,9 +13,7 @@
     display: inline-flex;
     align-items: center;
     position: relative;
-    left: 14%;
-    top: -22px;
-
+    top: -8px;
     z-index: 1;
 
 
@@ -40,15 +38,16 @@
 }
 
 .graphics-top{
-  position: relative;
-  left: 25%;
-  top: 20px;
+  max-width: 640px;
+  margin: auto;
+
+  padding-top: 16px;
 }
 
 .row > .column {
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 40px;
+  padding-top: 18px;
 
 
 

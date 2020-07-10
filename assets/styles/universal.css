@@ -89,6 +89,12 @@ h2{
   display:none;
 }
 
+.content{
+  max-width: 1536px;
+  margin: auto;
+
+}
+
 html,body
 {
     scroll-behavior: smooth;
@@ -271,7 +277,9 @@ a:hover{
   z-index: 2;
 
 
+
 }
+
 
 #inactive{
   opacity: 80%;
@@ -296,9 +304,10 @@ a:hover{
 }
 
 .navtext{
-  padding-top: 30px;
+  padding-top: 16px;
   padding-right: 60px;
   z-index: 2;
+
 
 
 }
@@ -355,18 +364,20 @@ a:hover{
 }
 
 .header {
-  height: 220px;
+  height: 250px;
   width: 100%;
   background: #0E1C41;
   display: inline-flex;
   align-items: center;
   z-index: -2;
 
+
+
 }
 
 .header-txt{
   width: 100%;
-  margin-bottom: 27px;
+
 
 }
 
@@ -374,14 +385,16 @@ a:hover{
   display: inline-flex;
   align-items: center;
 
-  margin-left: 15%;
-  margin-bottom: 56px;
+  min-width: 1050px;
+
+  padding-bottom: 90px;
+
 }
 
 
 #smol{
   width: 160px;
-  margin-top:-20px;
+
 }
 #portrait{
   width:160px;
