@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Bagnard';
+  src: url('Bagnard.eot');
+  src: url('Bagnard.eot?#iefix') format('embedded-opentype'),
+       url('Bagnard.svg#Bagnard') format('svg'),
+       url('Bagnard.ttf') format('truetype'),
+       url('Bagnard.woff') format('woff'),
+       url('Bagnard.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,65 @@
+
+.project-header {
+  height: 360px;
+  width: 100%;
+  background: #0E1C41;
+  display: inline-flex;
+  align-items: center;
+  z-index: -1;
+
+}
+
+.project-head-content{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    left: 14%;
+    top: -22px;
+
+    z-index: 1;
+
+
+}
+
+.role-txt{
+  max-width: 600px;
+
+  font-family: "Roboto";
+  color:#FFFFFF;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 14px;
+
+}
+
+#column1a{
+  max-width: 50%;
+  margin-right: 5%;
+}
+
+#column2a{
+  max-width: 38%;
+}
+
+#column1b{
+  max-width: 46%;
+  padding-right: 30px;
+}
+
+#columnn2b{
+  max-width: 50%;
+
+
+}
+
+.wide-row{
+  position: relative;
+  width: 80%;
+  top: 40px;
+
+  left: 12%;
+
+
+}

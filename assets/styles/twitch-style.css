@@ -1,0 +1,170 @@
+
+.graphics-header {
+  height: 240px;
+  width: 100%;
+  background: #0E1C41;
+  display: inline-flex;
+  align-items: center;
+  z-index: -1;
+
+}
+
+
+.commission-header {
+  height: 310px;
+  width: 100%;
+  background: #0E1C41;
+  display: inline-flex;
+  align-items: center;
+  z-index: -1;
+
+}
+
+
+.graphics-head-content{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    left: 14.8%;
+    top: -22px;
+
+    z-index: 1;
+
+
+}
+
+#graphics-div-div{
+  padding-top: 6px;
+  margin-bottom: -8px;
+}
+
+#graphics-div{
+  border-radius: 10px;
+  background: #FED56B;
+
+  width: 400px;
+  height: 8px;
+
+}
+
+#sub-width{
+  max-width: 500px;
+}
+
+#comm-sub-width{
+  max-width: 600px;
+}
+
+.graphics-top{
+  position: relative;
+  left: 25%;
+  top: 20px;
+}
+
+
+.graphics-button {
+  background-color: #0E1C41;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 16px;
+
+
+  position: relative;
+  left: 87.5%;
+
+  margin-top: 14px;
+  margin-bottom: 16px;
+
+  transition: .6s;
+}
+
+.graphics-button:hover {
+  transform: scale(1.05, 1.05);
+
+}
+
+
+.img-div-2{
+  position: relative;
+  width: 68.5%;
+  margin-top: 70px;
+
+  left: 13.9%;
+
+}
+
+.commission-img{
+  position: relative;
+  width: 68.5%;
+  margin-top: 20px;
+
+  left: 13.9%;
+
+}
+
+#columnimg2{
+  width: 100%;
+}
+
+.img-div-3{
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+
+  right: 2%;
+
+  display: inline-flex;
+
+}
+
+.tab-img{
+  padding-right: 20px;
+  padding-left: 20px;
+
+
+}
+
+#column-img3{
+  width: 100%;
+  margin-top: 32px;
+}
+
+
+
+.twitch-body-txt{
+  width: 46%;
+  max-width: 800px;
+  position: relative;
+  left: 26%;
+}
+
+.twitch-body-txt-c{
+  width: 46%;
+  max-width: 800px;
+  position: relative;
+  left: 26%;
+  top: 60px;
+}
+
+#blockquote-c{
+  background-color: #f0f5ff;
+
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #91b4ff;
+
+
+}
+
+.background-goals-c{
+  position: relative;
+  width: 64%;
+  top: 100px;
+  left: 18%;
+  margin-bottom: 122px;
+}

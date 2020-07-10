@@ -1,0 +1,297 @@
+
+@media screen and (max-width: 1200px){
+   h1 {
+       font-size: 46px;
+       line-height: 54px
+   }
+
+   .header-txt{
+     width: 90% !important;
+   }
+
+}
+
+@media screen and (max-width: 1136px){
+  #portrait{
+    display:none;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 1060px) and (min-width: 840px){
+   h1 {
+       font-size: 46px;
+       line-height: 54px
+   }
+
+   .header-txt{
+     width: 90% !important;
+   }
+
+
+   .divide{
+     animation: none !important;
+   }
+}
+
+
+@media screen and (max-width: 840px){
+
+
+   h1 {
+       font-size: 64px;
+       line-height: 54px
+   }
+
+
+
+   #portrait{
+     display:none;
+   }
+
+
+
+
+
+
+      }
+
+}
+
+
+
+@keyframes move {
+  from {
+    transform: translate(0,0);
+  }
+
+  to {
+    transform: translate(280px,0);
+  }
+}
+
+@keyframes page-move {
+  from {
+    transform: translate(0,0);
+  }
+
+  to {
+    transform: translate(210px,0);
+  }
+}
+
+
+
+
+h3{
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 800px;
+  color: #000000;
+  text-decoration: none !important;
+
+}
+
+.top-deco {
+  position: relative;
+  width: 100%;
+  height: 13px;
+  left: 0px;
+  top: 0px;
+
+  background: #FED56B;
+}
+
+.top-tri{
+  position: relative;
+  top: -34px;
+  left: 27px;
+  width: 0;
+  height: 0;
+  border-left: 34px solid transparent;
+  border-right: 34px solid transparent;
+
+  border-top: 36px solid #FED56B;
+}
+
+
+
+@keyframes bounce {
+  0% {
+    transform: translate(0,0);
+  }
+
+  25% {
+    transform: translate(0,4px);
+  }
+
+  50%{
+    transform:translate (0,0);
+  }
+
+  100% {
+    transform: translate(0,-4px);
+  }
+}
+
+
+#inactive-tab{
+  color: #B7B7B7;
+  font-weight: lighter;
+}
+
+#inactive-tab:hover{
+  color:#FED56B;
+  transition: color .6s;
+  cursor:pointer;
+  animation: bounce 1.2s linear infinite alternate;
+  animation-fill-mode: both;
+}
+
+
+.blue{
+  color: #4E90FF;
+}
+
+
+.tab-underline{
+
+  border-radius: 10px;
+  background: #FED56B;
+  position: relative;
+  left: 39px;
+  top:80px;
+
+  width: 60px;
+  height: 3px;
+
+}
+
+
+#home-tabs{
+    margin-left: 11.5%;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+
+  margin-left: 15%;
+  width: 490px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8571428571428572em;
+  line-height: 43px;
+  color: #000000;
+
+
+
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 22px 32px;
+  transition: 0.6s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  animation: bounce 1.2s linear infinite alternate;
+  animation-fill-mode: both;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: rgba(14, 28, 65, 0.05);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+
+}
+
+
+
+/* Style for project grid cards. */
+
+.grid-container{
+  margin-left: 200px;
+
+  background-color: white;
+
+  border: none !important;
+
+  width: 100%;
+
+  padding-bottom: 30px;
+
+}
+.column{
+  display: flex;
+}
+
+.project-card{
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+
+  width: 460px;
+
+  margin: 20px;
+
+  overflow: hidden;
+
+}
+
+.project-thumb{
+  width: 100%;
+
+
+
+}
+
+.project-caption{
+  padding-left: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+
+
+  max-width: 87%;
+}
+
+.project-header{
+  font-weight: bold;
+  font-size: 20px;
+
+
+}
+
+.project-subtitle{
+
+}
+
+#card-link{
+  color: black;
+}
+
+#card-link:hover{
+  transform: scale(1.05, 1.05);
+}
+/* End of project grid styles. */

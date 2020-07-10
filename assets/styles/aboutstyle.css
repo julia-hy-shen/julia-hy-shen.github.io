@@ -1,0 +1,566 @@
+@media only screen and (max-width: 1024px){
+  .tab{
+    display: none;
+  }
+
+
+  .tabcontent{
+    position: relative;
+    left: -50px;
+    top: 14px;
+
+    width: 100%;
+
+}
+}
+
+@media only screen and (max-width: 500px){
+
+  h1{
+    line-height: 54px !important;
+    padding-top: 48px !important;
+  }
+
+}
+
+@media screen and (max-width: 800px){
+  #portrait{
+    display:none;
+  }
+
+  ul{
+    margin-left: 0px !important;
+  }
+
+  .about-container{
+      width: 96% !important;
+      padding-bottom: 30px;
+
+      position: relative;
+      left: 0px !important;
+  }
+
+
+  #about-txt{
+    padding-left:40px;
+    line-height: 28px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+
+  }
+
+}
+
+
+
+ul{
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+
+  color: #000000;
+
+  padding-left:80px;
+  line-height: 28px;
+
+
+  width: 80%;
+}
+
+li{
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 80%;
+  color: #000000;
+
+  line-height: 28px;
+  margin-left: 14%;
+
+  width: 80%;
+}
+
+
+@keyframes move {
+  from {
+    transform: translate(0,0);
+  }
+
+  to {
+    transform: translate(280px,0);
+  }
+}
+
+@keyframes page-move {
+  from {
+    transform: translate(0,0);
+  }
+
+  to {
+    transform: translate(210px,0);
+  }
+}
+
+
+
+
+
+
+
+
+.about-container{
+    width: 80%;
+    padding-bottom: 30px;
+    max-width: 1200px;
+
+    position: relative;
+    left: 6%;
+}
+
+
+#about-txt{
+  padding-left:40px;
+  line-height: 28px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+
+  width: 80%;
+
+}
+
+
+
+
+
+
+.top-deco {
+  position: relative;
+  width: 100%;
+  height: 13px;
+  left: 0px;
+  top: 0px;
+
+  background: #FED56B;
+}
+
+.top-tri{
+  position: relative;
+    top: -34px;
+  left: 166px;
+  width: 0;
+  height: 0;
+  border-left: 34px solid transparent;
+  border-right: 34px solid transparent;
+
+  border-top: 36px solid #FED56B;
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translate(0,0);
+  }
+
+  25% {
+    transform: translate(0,4px);
+  }
+
+  50%{
+    transform:translate (0,0);
+  }
+
+  100% {
+    transform: translate(0,-4px);
+  }
+}
+
+
+
+#inactive-tab{
+  color: #B7B7B7;
+  font-weight: lighter;
+}
+
+#inactive-tab:hover{
+  color:#FED56B;
+  transition: color .6s;
+  cursor:pointer;
+  animation: bounce 1.2s linear infinite alternate;
+  animation-fill-mode: both;
+}
+
+.page-bottom{
+  min-width:400px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+.blue{
+  color: #4E90FF;
+}
+
+
+.tab-underline{
+
+  border-radius: 10px;
+  background: #FED56B;
+  position: relative;
+  left: 39px;
+  top:80px;
+
+  width: 60px;
+  height: 3px;
+
+}
+
+
+
+#home-tabs{
+    margin-left: 11.5%;
+}
+
+.ability-info{
+  position: relative;
+  left:27.5%;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+
+  margin-left: 15%;
+  width: 465px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 43px;
+  color: #000000;
+
+
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 22px 32px;
+  transition: 0.6s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  animation: bounce 1.2s linear infinite alternate;
+  animation-fill-mode: both;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: rgba(14, 28, 65, 0.05);
+}
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+
+
+}
+
+.ability-tab {
+  margin-top: 40px;
+  margin-bottom: 46px;
+  margin-left: 20.5%;
+
+
+    width: 46%;
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#tab-wrapper{
+  max-width: 1750px;
+
+
+}
+/* Style the buttons that are used to open the tab content */
+.ability-tab button {
+  font-family: 'Bagnard';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 43px;
+  color: #FED56B;
+
+  position: relative;
+  left: 9%;
+
+
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  transition: 0.6s;
+}
+
+/* Change background color of buttons on hover */
+.ability-tab button:hover {
+  animation: bounce 1.2s linear infinite alternate;
+  animation-fill-mode: both;
+}
+
+/* Create an active/current tablink class */
+.ability-tab button.active {
+
+}
+
+
+/* Style the tab content */
+.ability-tabcontent {
+  display: none;
+  padding: 6px 12px;
+
+  border-top: none;
+
+}
+
+.speech-bubble-P {
+	position: relative;
+  left: 22%;
+	background: #0E1C41;
+	border-radius: .8em;
+
+  height:auto;
+  width: 53%;
+  min-width: 750px;
+
+  margin-bottom: 40px;
+}
+
+.speech-bubble-P:after {
+	content: '';
+	position: absolute;
+	top: 16px;
+	left: 10%;
+	width: 0;
+	height: 0;
+	border: 43px solid transparent;
+	border-bottom-color: #0E1C41;
+	border-top: 0;
+	margin-left: -43px;
+	margin-top: -43px;
+}
+.speech-bubble-Q {
+	position: relative;
+  left: 22%;
+	background: #0E1C41;
+	border-radius: .8em;
+
+  height:auto;
+  width: 53%;
+  min-width: 750px;
+
+  margin-bottom: 40px;
+}
+
+.speech-bubble-Q:after {
+	content: '';
+	position: absolute;
+	top: 16px;
+	left: 29%;
+	width: 0;
+	height: 0;
+	border: 43px solid transparent;
+	border-bottom-color: #0E1C41;
+	border-top: 0;
+	margin-left: -43px;
+	margin-top: -43px;
+}
+.speech-bubble-W {
+	position: relative;
+  left: 22%;
+	background: #0E1C41;
+	border-radius: .8em;
+
+  height:auto;
+  width: 53%;
+  min-width: 750px;
+
+  margin-bottom: 40px;
+}
+
+.speech-bubble-W:after {
+	content: '';
+	position: absolute;
+	top: 16px;
+	left: 48.2%;
+	width: 0;
+	height: 0;
+	border: 43px solid transparent;
+	border-bottom-color: #0E1C41;
+	border-top: 0;
+	margin-left: -43px;
+	margin-top: -43px;
+}
+.speech-bubble-E {
+	position: relative;
+  left: 22%;
+	background: #0E1C41;
+	border-radius: .8em;
+
+  height:auto;
+  width: 53%;
+  min-width: 750px;
+
+  margin-bottom: 40px;
+}
+
+.speech-bubble-E:after {
+	content: '';
+	position: absolute;
+	top: 16px;
+	left: 67.3%;
+	width: 0;
+	height: 0;
+	border: 43px solid transparent;
+	border-bottom-color: #0E1C41;
+	border-top: 0;
+	margin-left: -43px;
+	margin-top: -43px;
+}
+.speech-bubble-R {
+	position: relative;
+  left: 22%;
+	background: #0E1C41;
+	border-radius: .8em;
+
+  height:auto;
+  width: 53%;
+  min-width: 750px;
+
+  margin-bottom: 40px;
+}
+
+.speech-bubble-R:after {
+	content: '';
+	position: absolute;
+	top: 16px;
+	left: 86.5%;
+	width: 0;
+	height: 0;
+	border: 43px solid transparent;
+	border-bottom-color: #0E1C41;
+	border-top: 0;
+	margin-left: -43px;
+	margin-top: -43px;
+}
+
+#ability-icon{
+  width: 80px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+#ability-txt{
+  padding: 42px;
+  color: #FFFFFF;
+
+  font-family: 'Roboto';
+  font-style: normal;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+#ability-list{
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+
+  margin-left: 0px;
+
+  color: #FFFFFF;
+}
+
+ul{
+  margin-bottom: 0px;
+}
+
+.project-grid{
+  display: inline-flex;
+  text-align: center;
+  margin-left: 10%;
+  margin-bottom: 42px;
+  width: 80%;
+
+}
+
+.project-block{
+    width: 50%;
+    border-radius: 10px;
+
+    height: 240px;
+    margin: 32px;
+
+    border-style: solid;
+    transition: .6s;
+
+}
+.project-block:before{
+    content: "";
+
+}
+
+.project-block:hover{
+  margin: 32px;
+  transform: scale(1.05,1.05);
+}
+
+.block-content{
+  padding-top: 13%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#design{
+  margin-top: 17%;
+}
+
+#for-fun{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+#project-text{
+  text-align: center;
+}
+
+
+
+img {
+  width:220px;
+  height:auto;
+}

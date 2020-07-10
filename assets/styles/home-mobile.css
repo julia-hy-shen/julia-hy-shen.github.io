@@ -1,0 +1,21 @@
+
+@media only screen and (max-width: 500px){
+  h1{
+    padding-top: 240px !important;
+  }
+
+  .page-bottom{
+    display: none;
+  }
+
+  .header{
+    padding-bottom: 450px !important;
+  }
+
+  #home-mobile{
+    display: block !important;
+    color: white;
+    padding-top: 15px;
+  }
+
+}

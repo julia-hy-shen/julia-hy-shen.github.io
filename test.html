@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Julia Shen</title>
+    <!-- Designed and developed by Julia Shen.  -->
+    <link rel="icon" href="assets/img/bluelogo.png">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+  <!-- Tab links -->
+<div class="tab">
+<button class="tablinks" onclick="openCity(event, 'London')">WORK</button>
+<button class="tablinks" onclick="openCity(event, 'Paris')">DESIGN</button>
+<button class="tablinks" onclick="openCity(event, 'Tokyo')">FOR FUN</button>
+</div>
+
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+<h3>WORK</h3>
+<p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+<h3>DESIGN</h3>
+<p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+<h3>FOR FUN</h3>
+<p>Tokyo is the capital of Japan.</p>
+</div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+</body>
+</html>
