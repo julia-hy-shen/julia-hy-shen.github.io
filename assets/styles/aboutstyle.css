@@ -345,7 +345,7 @@ li{
 .speech-bubble-P {
 	position: relative;
   left: 22%;
-	background: #0E1C41;
+	background: #000033;
 	border-radius: .8em;
 
   height:auto;
@@ -363,7 +363,7 @@ li{
 	width: 0;
 	height: 0;
 	border: 43px solid transparent;
-	border-bottom-color: #0E1C41;
+	border-bottom-color: #000033;
 	border-top: 0;
 	margin-left: -43px;
 	margin-top: -43px;
@@ -371,7 +371,7 @@ li{
 .speech-bubble-Q {
 	position: relative;
   left: 22%;
-	background: #0E1C41;
+	background: #000033;
 	border-radius: .8em;
 
   height:auto;
@@ -389,7 +389,7 @@ li{
 	width: 0;
 	height: 0;
 	border: 43px solid transparent;
-	border-bottom-color: #0E1C41;
+	border-bottom-color: #000033;
 	border-top: 0;
 	margin-left: -43px;
 	margin-top: -43px;
@@ -397,7 +397,7 @@ li{
 .speech-bubble-W {
 	position: relative;
   left: 22%;
-	background: #0E1C41;
+	background: #000033;
 	border-radius: .8em;
 
   height:auto;
@@ -415,7 +415,7 @@ li{
 	width: 0;
 	height: 0;
 	border: 43px solid transparent;
-	border-bottom-color: #0E1C41;
+	border-bottom-color: #000033;
 	border-top: 0;
 	margin-left: -43px;
 	margin-top: -43px;
@@ -423,7 +423,7 @@ li{
 .speech-bubble-E {
 	position: relative;
   left: 22%;
-	background: #0E1C41;
+	background: #000033;
 	border-radius: .8em;
 
   height:auto;
@@ -441,7 +441,7 @@ li{
 	width: 0;
 	height: 0;
 	border: 43px solid transparent;
-	border-bottom-color: #0E1C41;
+	border-bottom-color: #000033;
 	border-top: 0;
 	margin-left: -43px;
 	margin-top: -43px;
@@ -449,7 +449,7 @@ li{
 .speech-bubble-R {
 	position: relative;
   left: 22%;
-	background: #0E1C41;
+	background: #000033;
 	border-radius: .8em;
 
   height:auto;
@@ -467,7 +467,7 @@ li{
 	width: 0;
 	height: 0;
 	border: 43px solid transparent;
-	border-bottom-color: #0E1C41;
+	border-bottom-color: #000033;
 	border-top: 0;
 	margin-left: -43px;
 	margin-top: -43px;

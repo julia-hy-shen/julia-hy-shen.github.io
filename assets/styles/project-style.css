@@ -11,7 +11,7 @@
 }
 
 .button {
-  background-color: #0E1C41;
+  background-color: #000033;
   border: none;
   color: white;
   padding: 12px 32px;
@@ -303,7 +303,7 @@ h4{
 }
 
 #quote-txt{
-  color: #0E1C41;
+  color: #000033;
   margin-left: 6%;
   padding-top:20px;
   padding-bottom: 20px;

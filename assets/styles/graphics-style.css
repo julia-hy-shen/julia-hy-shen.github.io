@@ -2,7 +2,7 @@
 .graphics-header {
   height: 220px;
   width: 100%;
-  background: #0E1C41;
+  background: #000033;
   display: inline-flex;
   align-items: center;
   z-index: -1;
@@ -192,7 +192,7 @@ img {
 
 
 .graphics-button {
-  background-color: #0E1C41;
+  background-color: #000033;
   border: none;
   color: white;
   padding: 12px 32px;

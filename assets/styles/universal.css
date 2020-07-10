@@ -125,7 +125,7 @@ body {
   /* negative value of footer height */
   height: 72px;
   clear: both;
-  background-color: #0E1C41;
+  background-color: #000033;
 
   text-align: center;
 
@@ -270,7 +270,7 @@ a:hover{
 
   display: flex;
   justify-content: space-between;
-  background: #0E1C41;
+  background: #000033;
 
   align-items: center;
 
@@ -366,7 +366,7 @@ a:hover{
 .header {
   height: 250px;
   width: 100%;
-  background: #0E1C41;
+  background: #000033;
   display: inline-flex;
   align-items: center;
   z-index: -2;
