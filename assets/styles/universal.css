@@ -1,33 +1,73 @@
-@media only screen and (min-width:800px) and (max-width: 1024px){
+@media only screen and (min-width:800px) and (max-width: 1025px){
+
+  *, :before, :after {
+ /*CSS transitions*/
+ transition-property: none !important;
+ /*CSS transforms*/
+ transform: none !important;
+ /*CSS animations*/
+ animation: none !important;
+ }
+  h2{
+    max-width: 560px !important;
+  }
+
+  #toplogo{
+    position: relative;
+    top:24px !important;
+    left: 60px;
+
+    z-index: 2;
+
+  }
+
+
 
 }
+
 @media only screen and (max-width: 800px){
+  *, :before, :after {
+ /*CSS transitions*/
+ transition-property: none !important;
+ /*CSS transforms*/
+ transform: none !important;
+ /*CSS animations*/
+ animation: none !important;
+ }
+  h2{
+    max-width: 560px !important;
+  }
 
-  #header-content{
-    padding-top: 60px;
+  #toplogo{
+    position: relative;
+    top:24px !important;
+    left: 60px;
 
-    width: 74%;
+    z-index: 2;
 
   }
 
-  #footer{
-    display: none;
-  }
 
-  .header{
-      padding-bottom: 20px;
-  }
+
 
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 499px){
+  *, :before, :after {
+ /*CSS transitions*/
+ transition-property: none !important;
+ /*CSS transforms*/
+ transform: none !important;
+ /*CSS animations*/
+ animation: none !important;
+ }
 
-h1{
-  padding-top: 120px;
+#footer{
+  display: none;
 }
 
-html.touch *:hover {
-    pointer-events: none !important;
-}
+ .content{
+   max-width: 70% !important;
+ }
 
 .top-deco{
   display: none;
@@ -377,8 +417,6 @@ a:hover{
 
 .header-txt{
   width: 100%;
-
-
 }
 
 #header-content{

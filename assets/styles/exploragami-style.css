@@ -1,4 +1,47 @@
 
+@media only screen and (min-width:800px) and (max-width: 1025px){
+  .project-header{
+    height: 480px !important;
+  }
+
+  #width{
+    width: 400px !important;
+  }
+
+  .navtext{
+    padding-top: 30px !important;
+  }
+
+  .role-txt{
+    max-width: 390px !important;
+  }
+
+  .button{
+    position: relative;
+    left: 80% !important;
+    bottom: 40px;
+  }
+
+  #project-logo{
+    padding-right: 70px !important;
+  }
+
+  .project-header-txt{
+    max-width: 600px !important;
+  }
+
+  .team-txt-exp{
+
+    padding-right: 40px !important;
+    min-width: 219px !important;
+
+  }
+
+  #project-div-div{
+    margin-top: -12px !important
+  }
+
+}
 #width{
   width: 800px;
 }
