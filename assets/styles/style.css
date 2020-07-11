@@ -168,10 +168,8 @@ h2{
   display: inline-flex;
   align-items: center;
 
-  padding-top: 0px !important;
-  width: 80% !important;
-  margin: auto !important;
-
+  position: relative !important;
+  top: -200px !important;
 
 }
 
