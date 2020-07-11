@@ -1,4 +1,94 @@
 
+@media only screen and (min-width:800px) and (max-width: 1025px){
+  .project-header{
+    height: 500px !important;
+  }
+
+  .navtext{
+    padding-top: 30px !important;
+  }
+
+  .role-txt{
+    max-width: 220px !important;
+  }
+
+  .button{
+    position: relative;
+    left: 80% !important;
+    bottom: 40px;
+  }
+
+  #project-logo{
+    padding-right: 10px !important;
+  }
+
+  #project-div-div{
+    margin-top: -12px !important
+  }
+
+}
+
+
+@media only screen and (min-width:500px) and (max-width: 799px){
+  .project-header{
+    height: 500px !important;
+  }
+
+  h2{
+    max-width: 500px !important;
+  }
+
+  .navtext{
+    padding-top: 30px !important;
+  }
+
+  .role-txt{
+    max-width: 220px !important;
+  }
+
+  .team-txt{
+    padding-right: 30px !important;
+    max-width: 200px !important;
+    padding-left: 0px !important;
+  }
+
+  .button{
+    position: relative;
+    left: 76% !important;
+    bottom: 40px;
+  }
+
+  #project-logo{
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+
+
+    width: 180px !important;
+  }
+
+  #project-div-div{
+    margin-top: -12px !important
+  }
+
+  .project-header-txt{
+    position: relative !important;
+    top: 8px !important;
+    padding-left:0px !important;
+  }
+
+  #project-logo-img{
+    width: 160px;
+    padding-right: 0px !important;
+  }
+
+  .button2{
+    width: 50px !important;
+padding: 12px 28px;
+margin-right: 0px !important;
+  }
+
+}
+
 .project-header {
   height: 378px;
   width: 100%;
