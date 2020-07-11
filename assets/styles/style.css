@@ -171,6 +171,14 @@ h2{
   position: relative !important;
   top: -200px !important;
 
+  width: 90% !important;
+  margin: auto !important;
+
+}
+
+.header{
+  height: 100% !important;
+  width: 100% !important;
 }
 
 
