@@ -155,6 +155,10 @@ body{
   overflow: hidden;
 }
 
+.navlink{
+  font-weight: 100 !important;
+}
+
 #active{
   font-weight: 700 !important;
 }
