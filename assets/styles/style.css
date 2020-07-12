@@ -152,7 +152,7 @@
 }
 
 body{
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 #site-title{
