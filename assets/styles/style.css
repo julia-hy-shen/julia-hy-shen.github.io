@@ -144,12 +144,13 @@
 }
 
 @media only screen and (max-width: 499px){
-  html, body {
-    overflow-x: hidden !important;
-  }
-  body {
-    position: relative !important;
-  }
+
+*{
+  max-width: 100% !important;
+  max-height: 100% !important;
+
+
+}
 
 #site-title{
   max-width: 300px !important;
