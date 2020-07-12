@@ -151,6 +151,10 @@
 
 }
 
+body{
+  overflow-y: hidden;
+}
+
 #site-title{
   max-width: 300px !important;
   line-height: 58px !important;
