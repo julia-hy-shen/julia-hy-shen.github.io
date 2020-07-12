@@ -155,6 +155,10 @@ body{
   overflow: hidden;
 }
 
+#active{
+  font-weight: bold;
+}
+
 #site-title{
   max-width: 300px !important;
   line-height: 58px !important;
