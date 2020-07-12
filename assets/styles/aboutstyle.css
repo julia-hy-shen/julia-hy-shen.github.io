@@ -106,14 +106,13 @@ ul{
   }
 
   .header{
-    height: 200px !important;
+    height: 206px !important;
   }
 
   #header-content{
     position: relative !important;
-    top: -34px !important;
+    top: -48px !important;
 
-    padding-bottom: 30px;
   }
 
 
