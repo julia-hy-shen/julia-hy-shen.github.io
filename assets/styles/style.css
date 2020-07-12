@@ -161,6 +161,7 @@ body{
 
 #active{
   font-weight: 700 !important;
+  opacity: 100% !important;
 }
 
 #site-title{
