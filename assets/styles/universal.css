@@ -322,8 +322,8 @@ a:hover{
 
 
 #inactive{
-  opacity: 80%;
-  font-weight: lighter;
+  opacity: 50%;
+
 }
 
 #inactive:hover{
@@ -356,17 +356,19 @@ a:hover{
   text-decoration: none;
   color: #FFEAB4;
   transition: .6s;
+
+  font-weight: 500;
 }
 
 .navitem{
   display:inline-flex;
   padding-left:20px;
   padding-right:20px;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 24px;
   line-height: 28px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 0.225em;
 }
 
