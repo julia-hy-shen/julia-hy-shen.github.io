@@ -130,6 +130,10 @@ ul{
     padding-top: 48px !important;
   }
 
+  h2{
+    padding-top: 6px !important;
+  }
+
   .tab {
 
     display: none !important;
