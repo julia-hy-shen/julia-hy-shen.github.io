@@ -164,6 +164,10 @@ body{
   opacity: 100% !important;
 }
 
+#inactive{
+  opacity: 40% !important;
+}
+
 #site-title{
   max-width: 300px !important;
   line-height: 58px !important;
