@@ -166,8 +166,6 @@ ul{
 }
 
 
-
-
 ul{
   font-family: "Roboto", Arial, sans-serif;
   font-size: 18px;
@@ -228,12 +226,12 @@ li{
 
 
 .about-container{
-    width: 80%;
-    padding-bottom: 30px;
+    width: 66%;
+    padding-bottom: 60px;
+
     max-width: 1200px;
 
-    position: relative;
-    left: 6%;
+    margin: auto;
 }
 
 
@@ -343,7 +341,7 @@ li{
 
 .ability-info{
   position: relative;
-  left:27.5%;
+  left:28%;
 }
 
 /* Style the tab */
@@ -423,7 +421,7 @@ li{
   color: #FED56B;
 
   position: relative;
-  left: 9%;
+  left: 10.8%;
 
 
   background-color: inherit;
@@ -453,6 +451,7 @@ li{
   padding: 6px 12px;
 
   border-top: none;
+  margin: auto;
 
 }
 
@@ -473,7 +472,7 @@ li{
 	content: '';
 	position: absolute;
 	top: 16px;
-	left: 10%;
+	left: 11.6%;
 	width: 0;
 	height: 0;
 	border: 43px solid transparent;
@@ -499,7 +498,7 @@ li{
 	content: '';
 	position: absolute;
 	top: 16px;
-	left: 29%;
+	left: 30.8%;
 	width: 0;
 	height: 0;
 	border: 43px solid transparent;
@@ -525,7 +524,7 @@ li{
 	content: '';
 	position: absolute;
 	top: 16px;
-	left: 48.2%;
+	left: 49.7%;
 	width: 0;
 	height: 0;
 	border: 43px solid transparent;
@@ -551,7 +550,7 @@ li{
 	content: '';
 	position: absolute;
 	top: 16px;
-	left: 67.3%;
+	left: 68.9%;
 	width: 0;
 	height: 0;
 	border: 43px solid transparent;
@@ -567,7 +566,7 @@ li{
 	border-radius: .8em;
 
   height:auto;
-  width: 53%;
+  width: 53.9%;
   min-width: 750px;
 
   margin-bottom: 40px;
