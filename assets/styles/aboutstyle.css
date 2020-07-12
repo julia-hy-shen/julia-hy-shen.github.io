@@ -110,7 +110,8 @@ ul{
   }
 
   #header-content{
-
+    position: relative !important;
+    top: -28px !important;
 
   }
 
@@ -118,6 +119,7 @@ ul{
   #site-title{
     max-width: 300px !important;
     line-height: 58px !important;
+    padding-top: 0px !important;
   }
 
   #navbar{
