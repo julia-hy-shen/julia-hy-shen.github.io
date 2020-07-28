@@ -7,7 +7,7 @@
   border-left: 34px solid transparent;
   border-right: 34px solid transparent;
 
-  border-top: 16px solid transparent;
+  border-top: 26px solid transparent;
 }
 
 .button {
@@ -243,7 +243,7 @@ h4{
   position: relative;
   width: 64%;
   top: 18px;
-  left: 18%;
+  left: 15%;
 
 }
 
@@ -263,7 +263,7 @@ h4{
 
 #caption-div{
   position: relative;
-  left: 11%;
+  left: 7%;
   width: 80%;
   max-width: 800px;
 

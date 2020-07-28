@@ -437,6 +437,14 @@ h3{
 
 }
 
+.project-tags{
+  font-weight: bold;
+  font-size: 14px;
+  color: #999999;
+
+  padding-bottom: 6px;
+}
+
 .project-subtitle{
 
 }

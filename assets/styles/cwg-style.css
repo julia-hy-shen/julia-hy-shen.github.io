@@ -11,6 +11,10 @@
     max-width: 380px !important;
   }
 
+  .role-txt-2{
+    max-width: 380px !important;
+  }
+
   .button{
     position: relative;
     left: 80% !important;
@@ -57,6 +61,9 @@
   }
 
   .role-txt{
+    max-width: 320px !important;
+  }
+  .role-txt-2{
     max-width: 320px !important;
   }
 
@@ -160,6 +167,19 @@ margin-right: 0px !important;
 
 .role-txt{
   max-width: 530px;
+
+  font-family: "Roboto";
+  color:#FFFFFF;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 14px;
+
+}
+
+.role-txt-2{
+  max-width: 430px;
 
   font-family: "Roboto";
   color:#FFFFFF;

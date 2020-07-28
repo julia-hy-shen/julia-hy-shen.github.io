@@ -90,7 +90,7 @@ margin-right: 0px !important;
 }
 
 .project-header {
-  height: 378px;
+  height: 388px;
   width: 100%;
   background: #000033;
   display: inline-flex;
@@ -127,15 +127,7 @@ margin-right: 0px !important;
 
 
 
-.project-header {
-  height: 378px;
-  width: 100%;
-  background: #000033;
-  display: inline-flex;
-  align-items: center;
-  z-index: -1;
 
-}
 
 .project-header-txt{
   position: relative;
