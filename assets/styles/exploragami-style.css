@@ -140,3 +140,12 @@
   left: 10%;
 
 }
+
+#caption-div-2{
+  position: relative;
+  left: 11%;
+  width: 80%;
+  max-width: 800px;
+
+  margin-left: 5%;
+  }
