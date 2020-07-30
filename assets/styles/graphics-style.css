@@ -112,6 +112,7 @@
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 18px;
+  padding-bottom: 18px;
 
 
 
@@ -261,6 +262,8 @@ img {
   color: white;
   padding: 12px 32px;
 
+  color: #FED56B;
+
   text-decoration: none;
   display: inline-block;
   border-radius: 10px;
@@ -270,13 +273,13 @@ img {
   position: relative;
   left: 87.5%;
 
-  margin-top: 36px;
+  margin-top: 14px;
   margin-bottom: 28px;
 
   transition: .6s;
 }
 
 .graphics-button:hover {
-  transform: scale(1.05, 1.05);
+  color:white;
 
 }
