@@ -321,18 +321,6 @@ a:hover{
 }
 
 
-#inactive{
-  opacity: 50%;
-
-}
-
-#inactive:hover{
-  color:#4E90FF;
-  transition: color .6s;
-  cursor:pointer;
-  animation: bounce 1.2s linear infinite alternate;
-  animation-fill-mode: both;
-}
 
 #toplogo{
   position: relative;
@@ -360,6 +348,12 @@ a:hover{
   font-weight: 500;
 }
 
+.navlink:hover {
+
+  color: white;
+
+}
+
 .navitem{
   display:inline-flex;
   padding-left:20px;
@@ -376,7 +370,7 @@ a:hover{
 .logo:hover{
 
   cursor:pointer;
-  animation: bounce 1.2s linear infinite alternate;
+
   animation-fill-mode: both;
 
 }

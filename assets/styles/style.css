@@ -302,7 +302,7 @@ h3{
   color:#FED56B;
   transition: color .6s;
   cursor:pointer;
-  animation: bounce 1.2s linear infinite alternate;
+
   animation-fill-mode: both;
 }
 
@@ -360,13 +360,13 @@ h3{
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  animation: bounce 1.2s linear infinite alternate;
+  background-color: rgba(204, 204, 204, 0.2);
   animation-fill-mode: both;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: rgba(204, 204, 204, 0.2);
+  background-color: rgba(204, 204, 204, 0.4);
 }
 
 /* Style the tab content */
@@ -454,6 +454,6 @@ h3{
 }
 
 #card-link:hover{
-  transform: scale(1.05, 1.05);
+  transform: scale(1.04, 1.04);
 }
 /* End of project grid styles. */

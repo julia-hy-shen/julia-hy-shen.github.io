@@ -309,7 +309,7 @@ li{
   color:#FED56B;
   transition: color .6s;
   cursor:pointer;
-  animation: bounce 1.2s linear infinite alternate;
+
   animation-fill-mode: both;
 }
 
@@ -379,13 +379,13 @@ li{
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  animation: bounce 1.2s linear infinite alternate;
+  background-color: rgba(204, 204, 204, 0.2);
   animation-fill-mode: both;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: rgba(14, 28, 65, 0.05);
+  background-color: rgba(204, 204, 204, 0.4);
 }
 
 
