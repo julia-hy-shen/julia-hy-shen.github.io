@@ -310,7 +310,7 @@ a:hover{
 
   display: flex;
   justify-content: space-between;
-  background: #000033;
+  background: #0E1C41;
 
   align-items: center;
 
@@ -402,7 +402,7 @@ a:hover{
 .header {
   height: 250px;
   width: 100%;
-  background: #000033;
+  background: #0E1C41;
   display: inline-flex;
   align-items: center;
   z-index: -2;
