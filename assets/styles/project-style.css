@@ -10,6 +10,8 @@
   border-top: 26px solid transparent;
 }
 
+
+
 .button {
   background-color: #000033;
   border: none;
@@ -25,12 +27,14 @@
   position: relative;
   left: 86%;
   bottom: 40px;
+  color:#FED56B;
+
 
   transition: .6s;
 }
 
 .button:hover {
-  transform: scale(1.05, 1.05);
+  color: #FFFFFF;
 
 }
 
@@ -50,10 +54,13 @@
 
   transition: .6s;
 
+  color: #0E1C41;
+
 }
 
 .button2:hover {
-  transform: scale(1.05, 1.05);
+
+  color: #FED56B;
 
 }
 
@@ -76,11 +83,13 @@
 
   transition: .6s;
 
+  color: #0E1C41;
+
 }
 
 .button3:hover {
-  transform: scale(1.05, 1.05);
 
+  color: #FED56B;
 }
 
 
@@ -207,15 +216,15 @@ h4{
 .project-body-txt{
   width: 46%;
   max-width: 800px;
-  position: relative;
-  left: 26%;
+  margin: auto;
 
-  margin-top: 44px;
+  margin-top: 34px;
 
 }
 
 #project-columns{
   display: inline-flex;
+  margin: auto;
 }
 
 #column1{
@@ -232,42 +241,33 @@ h4{
 }
 
 .background-goals{
-  position: relative;
+
   width: 64%;
-  top: 40px;
-  left: 18%;
+  margin: auto;
 
 }
 
-.img-div{
-  position: relative;
-  width: 64%;
-  top: 18px;
-  left: 15%;
 
+
+#bottom-text{
+  padding-top: 40px;
 }
 
-#img1{
-  margin-top: 44px;
-}
 
-#body-img{
-  width: 90%;
-  max-width: 1400px;
-  height: auto;
+#body-img img{
+  padding-top: 20px;
+  max-width: 968px;
 
-  position: relative;
-  left: 6%;
-
+  display: block;
+  margin: auto;
 }
 
 #caption-div{
-  position: relative;
-  left: 7%;
-  width: 80%;
-  max-width: 800px;
+  margin: auto;
+  width: 85%;
 
-  margin-left: 5%;
+  max-width: 920px;
+
   }
 
 

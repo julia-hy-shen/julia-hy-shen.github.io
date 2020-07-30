@@ -105,20 +105,17 @@
 
 
 .img-div-2{
-  position: relative;
-  width: 68.5%;
-  margin-top: 70px;
-
-  left: 13.9%;
+  margin: auto;
+  padding-top: 20px;
 
 }
 
 .commission-img{
-  position: relative;
+
   width: 68.5%;
   margin-top: 20px;
 
-  left: 13.9%;
+  margin: auto;
 
 }
 
@@ -127,11 +124,10 @@
 }
 
 .img-div-3{
-  position: relative;
+
   width: 100%;
   margin-top: 30px;
-
-  right: 2%;
+  margin: auto;
 
   display: inline-flex;
 
@@ -154,16 +150,13 @@
 .twitch-body-txt{
   width: 46%;
   max-width: 800px;
-  position: relative;
-  left: 26%;
+  margin: auto;
 }
 
 .twitch-body-txt-c{
   width: 46%;
   max-width: 800px;
-  position: relative;
-  left: 26%;
-  top: 60px;
+  margin: auto;
 }
 
 #blockquote-c{
@@ -177,9 +170,9 @@
 }
 
 .background-goals-c{
-  position: relative;
+
   width: 64%;
-  top: 100px;
-  left: 18%;
-  margin-bottom: 122px;
+  margin: auto;
+  margin-bottom: 62px;
+  padding-top: 40px;
 }

@@ -128,24 +128,22 @@
   width: 80%;
   top: 40px;
 
-  left: 12%;
+  margin: auto;
 
 
 }
 
 .img-div-exp{
-  position: relative;
+  margin: auto;
   width: 78%;
-  top: 18px;
-  left: 10%;
+
 
 }
 
 #caption-div-2{
-  position: relative;
-  left: 11%;
+
   width: 80%;
   max-width: 800px;
 
-  margin-left: 5%;
+  margin: auto;
   }
