@@ -165,7 +165,7 @@ body {
   /* negative value of footer height */
   height: 72px;
   clear: both;
-  background-color: #000033;
+  background-color: #0E1C41;
 
   text-align: center;
 
@@ -260,7 +260,7 @@ h2 {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 14px;
   color: #FFFFFF;
-  font-weight: lighter;
+  font-weight: 300;
 
 }
 
