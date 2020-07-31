@@ -233,7 +233,8 @@ li{
 
 .about-container{
     width: 66%;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
+    padding-top: 10px;
 
     max-width: 1200px;
 

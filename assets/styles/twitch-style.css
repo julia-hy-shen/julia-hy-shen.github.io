@@ -14,6 +14,8 @@
     padding-top: 30px !important;
   }
 }
+
+
 .graphics-header {
   height: 220px;
   width: 100%;
@@ -22,6 +24,14 @@
   align-items: center;
   z-index: -1;
 
+}
+
+#col-body-img img{
+  padding-top: 20px;
+  max-width: 484px;
+
+  display: block;
+  margin: auto;
 }
 
 
@@ -66,48 +76,21 @@
   max-width: 500px;
 }
 
-#comm-sub-width{
-  max-width: 600px;
+.twitch-txt{
+  width: 90%;
+  margin: auto;
+
+  padding-bottom: 18px;
 }
-
-.graphics-top{
-  position: relative;
-  left: 25%;
-  top: 20px;
-}
-
-
-.graphics-button {
-  background-color: #0E1C41;
-  border: none;
-  color: white;
-  padding: 12px 32px;
-
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 10px;
-  font-size: 16px;
-
-
-  position: relative;
-  left: 87.5%;
-
-  margin-top: 14px;
-  margin-bottom: 16px;
-
-  transition: .6s;
-}
-
-.graphics-button:hover {
-  transform: scale(1.05, 1.05);
-
-}
-
 
 .img-div-2{
   margin: auto;
   padding-top: 20px;
+  max-width: 1000px;
+}
 
+#blockquote{
+  margin-bottom: 42px;
 }
 
 .commission-img{
@@ -119,9 +102,7 @@
 
 }
 
-#columnimg2{
-  width: 100%;
-}
+
 
 .img-div-3{
 
@@ -145,19 +126,48 @@
   margin-top: 32px;
 }
 
+#column-img3 img{
+  padding-top: 20px;
+  max-width: 322px;
 
-
-.twitch-body-txt{
-  width: 46%;
-  max-width: 800px;
+  display: block;
   margin: auto;
 }
 
-.twitch-body-txt-c{
-  width: 46%;
-  max-width: 800px;
+.tab-img-row{
+  display: inline-flex;
+  flex-direction: row;
+
   margin: auto;
 }
+
+.twitch-content{
+  width: 70%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+#column1-twitch{
+  max-width: 50%;
+  padding-right: 14px;
+
+}
+
+#column2-twitch{
+  max-width: 50%;
+  padding-left: 14px;
+}
+
+#body-img-tw img{
+  padding-top: 40px;
+  width: 100%;
+  max-width: 1060px;
+
+  display: block;
+  margin: auto;
+}
+
 
 #blockquote-c{
   background-color: #f0f5ff;
@@ -169,10 +179,20 @@
 
 }
 
-.background-goals-c{
+.button{
+  margin-top: 28px;
+}
 
-  width: 64%;
+
+#blockquote-c-full{
+  background-color: #f0f5ff;
+
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #91b4ff;
+
+  width: 60%;
   margin: auto;
-  margin-bottom: 62px;
-  padding-top: 40px;
+  margin-bottom: 30px;
+
 }
